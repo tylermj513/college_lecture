@@ -1,0 +1,53 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\altera\91sp2\quartus\Adder4bit\simulation\modelsim
+vAdder4bit
+IPL4^`3]?P3UVl@;GW>J2]2
+V]hURD7T@PAF@dAY^0zmS_0
+Z1 w1618562930
+Z2 8C:/altera/91sp2/quartus/Adder4bit/Adder4bit.v
+Z3 FC:/altera/91sp2/quartus/Adder4bit/Adder4bit.v
+L0 8
+Z4 OV;L;6.5b;42
+r1
+31
+Z5 o-vlog01compat -work work -O0
+Z6 !s92 -vlog01compat -work work +incdir+C:/altera/91sp2/quartus/Adder4bit -O0
+n@adder4bit
+!s100 WGLH`di98oO_l8Nna>]db3
+!s85 0
+!s101 -O0
+vAdder4bit_tb
+!s100 QnGlBgX`Id72ozkNQY4zn2
+IgS2lGG`g32>7AZRmk2FdN0
+Vz5n?]F@jUHc=54F<h7b7c0
+w1618562996
+8C:/altera/91sp2/quartus/Adder4bit/Adder4bit_tb.v
+FC:/altera/91sp2/quartus/Adder4bit/Adder4bit_tb.v
+L0 2
+R4
+r1
+!s85 0
+31
+!s101 -O0
+R5
+R6
+n@adder4bit_tb
+vFA
+I[LQQ2K2eLJZ8Q`<:HX>9^3
+V3@hUko^2=K0ziX>UChc9U2
+R1
+R2
+R3
+L0 1
+R4
+r1
+31
+R5
+R6
+n@f@a
+!s100 NFQf5Q:M4YUWnU1_@QMAO1
+!s85 0
+!s101 -O0

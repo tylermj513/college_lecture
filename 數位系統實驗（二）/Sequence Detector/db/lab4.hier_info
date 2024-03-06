@@ -1,0 +1,12 @@
+|lab4
+str_out[0] <= str_out[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+str_out[1] <= str_out[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+str_out[2] <= str_out[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+match <= always2~1.DB_MAX_OUTPUT_PORT_TYPE
+rst => str_out[0]~reg0.ENA
+str_in => str_out[0]~reg0.DATAIN
+clk => str_out[0]~reg0.CLK
+clk => str_out[1]~reg0.CLK
+clk => str_out[2]~reg0.CLK
+
+

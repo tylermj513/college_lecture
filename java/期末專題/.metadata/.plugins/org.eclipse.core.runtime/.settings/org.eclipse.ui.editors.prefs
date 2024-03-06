@@ -1,0 +1,12 @@
+eclipse.preferences.version=1
+fullcoverage_stylePreferences=NONE
+fullcoverage_text=false
+javaScriptOccurrenceIndicationColor=90,90,90
+linked.exit.color=255,255,255
+nocoverage_stylePreferences=NONE
+nocoverage_text=false
+org.eclipse.cdt.ui.occurrenceIndicationColor=90,90,90
+overviewRuler_migration=migrated_3.1
+partialcoverage_stylePreferences=NONE
+partialcoverage_text=false
+pydevOccurrenceIndicationColor=90,90,90

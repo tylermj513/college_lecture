@@ -1,0 +1,53 @@
+# Reading C:/altera/91sp2/modelsim_ase/tcl/vsim/pref.tcl 
+# do Adder4bit_run_msim_rtl_verilog.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Copying C:\altera\91sp2\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied C:\altera\91sp2\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vlog -vlog01compat -work work +incdir+C:/altera/91sp2/quartus/Adder4bit {C:/altera/91sp2/quartus/Adder4bit/Adder4bit.v}
+# Model Technology ModelSim ALTERA vlog 6.5b Compiler 2009.10 Oct  1 2009
+# -- Compiling module FA
+# -- Compiling module Adder4bit
+# 
+# Top level modules:
+# 	Adder4bit
+# 
+# vlog -vlog01compat -work work +incdir+C:/altera/91sp2/quartus/Adder4bit {C:/altera/91sp2/quartus/Adder4bit/Adder4bit_tb.v}
+# Model Technology ModelSim ALTERA vlog 6.5b Compiler 2009.10 Oct  1 2009
+# -- Compiling module Adder4bit_tb
+# 
+# Top level modules:
+# 	Adder4bit_tb
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L stratixii_ver -L rtl_work -L work -voptargs="+acc" Adder4bit_tb
+# vsim -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L stratixii_ver -L rtl_work -L work -voptargs=\"+acc\" -t 1ps Adder4bit_tb 
+# Loading work.Adder4bit_tb
+# Loading work.Adder4bit
+# ** Warning: (vsim-3009) [TSCALE] - Module 'Adder4bit' does not have a `timescale directive in effect, but previous modules do.
+#         Region: /Adder4bit_tb/fatest
+# Loading work.FA
+# ** Warning: (vsim-3009) [TSCALE] - Module 'FA' does not have a `timescale directive in effect, but previous modules do.
+#         Region: /Adder4bit_tb/fatest/U0
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body
+# run -all
+# a=0000,b=0000,c_input=0,s=0000,c_output=0
+# a=1011,b=0100,c_input=0,s=1111,c_output=0
+# a=0111,b=1101,c_input=1,s=0101,c_output=1
+# ** Note: $finish    : C:/altera/91sp2/quartus/Adder4bit/Adder4bit_tb.v(19)
+#    Time: 30 ns  Iteration: 0  Instance: /Adder4bit_tb
+# 1
+# Break in Module Adder4bit_tb at C:/altera/91sp2/quartus/Adder4bit/Adder4bit_tb.v line 19
+# Simulation Breakpoint: 1
+# Break in Module Adder4bit_tb at C:/altera/91sp2/quartus/Adder4bit/Adder4bit_tb.v line 19
+# MACRO ./Adder4bit_run_msim_rtl_verilog.do PAUSED at line 17
